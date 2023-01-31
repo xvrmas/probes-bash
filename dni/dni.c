@@ -11,6 +11,6 @@ int main() {
     int dni;
     printf("Entra tu numero de DNI: ");
     scanf("%d", &dni);
-    write(1, getLetter(dni), 1);
+    printf("La letra de tu dni es: %c", getLetter(dni));
     return 0;
 }
